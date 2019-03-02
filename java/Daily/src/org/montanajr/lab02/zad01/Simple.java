@@ -5,9 +5,9 @@ public class Simple {
 
     public static void main(String[] args) {
         Recognizer oo = new Recognizer();
-        Result r = new Result();
+        Result r;
 
-        r = oo.wybierz_dzialanie(1);
+        r = oo.wybierz_dzialanie(1.22);
         System.out.println(r.getResult());
     }
 }
