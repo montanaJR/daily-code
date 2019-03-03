@@ -1,15 +1,15 @@
-package org.montanajr.lab02.zad02;
+package org.montanajr.lab02.zad02zad03;
 
-import org.montanajr.lab02.zad02.concrete.student.Student;
-import org.montanajr.lab02.zad02.global.AbstractFactory;
-import org.montanajr.lab02.zad02.global.FactoryCreator;
-import org.montanajr.lab02.zad02.object.File;
-import org.montanajr.lab02.zad02.object.Profile;
+import org.montanajr.lab02.zad02zad03.concrete.student.Student;
+import org.montanajr.lab02.zad02zad03.global.AbstractFactory;
+import org.montanajr.lab02.zad02zad03.global.FactoryCreator;
+import org.montanajr.lab02.zad02zad03.object.File;
+import org.montanajr.lab02.zad02zad03.object.Profile;
 
 public class FactoryMain {
     public static void main(String[] args) {
     String fileName = "TXT";
-    String profileTxt = "sieci";
+    String profileTxt = "IT Security";
     Student s = new Student(1, "Olek", "V");
 
         AbstractFactory fileFactory = FactoryCreator.getFactory("file");
@@ -19,7 +19,7 @@ public class FactoryMain {
         Profile profile = profileFactory.getProfile(profileTxt);
 
         AbstractFactory studentFactory = FactoryCreator.getFactory("student");
-        org.montanajr.lab02.zad02.object.Student student = studentFactory.getStudent(s);
+        org.montanajr.lab02.zad02zad03.object.Student student = studentFactory.getStudent(s);
 
         System.out.println(profile.getProfileType());
         System.out.println(student.getStudentData());

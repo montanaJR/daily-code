@@ -1,4 +1,4 @@
-package org.montanajr.lab02.zad02.global;
+package org.montanajr.lab02.zad02zad03.global;
 
 
 

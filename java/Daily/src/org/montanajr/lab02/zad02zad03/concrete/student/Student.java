@@ -1,6 +1,6 @@
-package org.montanajr.lab02.zad02.concrete.student;
+package org.montanajr.lab02.zad02zad03.concrete.student;
 
-public class Student implements org.montanajr.lab02.zad02.object.Student{
+public class Student implements org.montanajr.lab02.zad02zad03.object.Student{
     private long number;
     private String name;
     private String surname;

@@ -1,6 +1,6 @@
-package org.montanajr.lab02.zad02.concrete.file;
+package org.montanajr.lab02.zad02zad03.concrete.file;
 
-import org.montanajr.lab02.zad02.object.File;
+import org.montanajr.lab02.zad02zad03.object.File;
 
 public class JsonFile implements File {
 

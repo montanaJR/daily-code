@@ -1,12 +1,9 @@
-package org.montanajr.lab02.zad02.global;
+package org.montanajr.lab02.zad02zad03.global;
 
-import org.montanajr.lab02.zad02.concrete.profile.Graphics;
-import org.montanajr.lab02.zad02.concrete.profile.Network;
-import org.montanajr.lab02.zad02.concrete.profile.SoftwareTech;
-import org.montanajr.lab02.zad02.concrete.profile.SysEngineering;
-import org.montanajr.lab02.zad02.concrete.student.Student;
-import org.montanajr.lab02.zad02.object.File;
-import org.montanajr.lab02.zad02.object.Profile;
+import org.montanajr.lab02.zad02zad03.concrete.profile.*;
+import org.montanajr.lab02.zad02zad03.concrete.student.Student;
+import org.montanajr.lab02.zad02zad03.object.File;
+import org.montanajr.lab02.zad02zad03.object.Profile;
 
 public class ProfileFactory extends AbstractFactory{
 
@@ -32,7 +29,7 @@ public class ProfileFactory extends AbstractFactory{
         }else if (profileName.equalsIgnoreCase("inzynieria")){
             return new SysEngineering();
         } else {
-            throw new IllegalArgumentException("Nie obslugiwany kierunek studiow");
+            return new UnderfinedProfile(profileName);
         }
 
     }

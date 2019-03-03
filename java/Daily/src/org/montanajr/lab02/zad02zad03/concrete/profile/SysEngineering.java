@@ -1,6 +1,6 @@
-package org.montanajr.lab02.zad02.concrete.profile;
+package org.montanajr.lab02.zad02zad03.concrete.profile;
 
-import org.montanajr.lab02.zad02.object.Profile;
+import org.montanajr.lab02.zad02zad03.object.Profile;
 
 public class SysEngineering implements Profile {
 

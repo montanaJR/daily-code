@@ -1,8 +1,8 @@
-package org.montanajr.lab02.zad02.global;
+package org.montanajr.lab02.zad02zad03.global;
 
-import org.montanajr.lab02.zad02.concrete.student.Student;
-import org.montanajr.lab02.zad02.object.File;
-import org.montanajr.lab02.zad02.object.Profile;
+import org.montanajr.lab02.zad02zad03.concrete.student.Student;
+import org.montanajr.lab02.zad02zad03.object.File;
+import org.montanajr.lab02.zad02zad03.object.Profile;
 
 public class StudentFactory extends AbstractFactory {
 
