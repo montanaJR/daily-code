@@ -17,16 +17,16 @@ public class BankAccount {
     }
 
     private void print(){
-        System.out.println("Account status " + status + "zl");
+        System.out.println("Account status " + status + " zl");
     }
 
     public synchronized void addDebit(Integer i){
-        status =+ i;
+        status += i;
         print();
     }
 
     public synchronized void reduceDebit(Integer i) {
-        status =- i;
+        status -= i;
         print();
 
     }
