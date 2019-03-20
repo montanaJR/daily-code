@@ -10,5 +10,9 @@ public class Uczelnia {
         s2 = new StypendiaRektora(s2);
         s2 = new StypendiaNaukowe(s2);
         System.out.println(s2.getOpis() + " pobiera " + s2.rodzajStypendiow());
+
+
     }
+
+
 }
