@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd"
+        >
+        <!--default-init-method="reset"-->
+    <context:component-scan base-package="org.montanajr"/>
+
+<!--
+
+    <bean id="numberGenerator"  class="org.montanajr.NumberGeneratorImpl" />
+    <bean id="game" class="org.montanajr.GameImpl" >
+        &lt;!&ndash;init-method="reset" &ndash;&gt;
+        &lt;!&ndash;<constructor-arg ref="numberGenerator"/>&ndash;&gt;
+      &lt;!&ndash;  <property name="numberGenerator" ref="numberGenerator"/>&ndash;&gt;
+    </bean>
+-->
+
+<!--
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+-->
+
+
+
+
+</beans>
