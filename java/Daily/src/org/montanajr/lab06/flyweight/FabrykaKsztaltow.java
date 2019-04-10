@@ -20,6 +20,12 @@ public class FabrykaKsztaltow
 		   else if (typ.equals(TypyKsztaltow.LINE))  {
 				ksztaltImpl = new Linia();
 			}
+          else if (typ.equals(TypyKsztaltow.POLYGON_FILL))  {
+              ksztaltImpl = new Polygon(true);
+          }
+          else if (typ.equals(TypyKsztaltow.POLYGON_NOFILL))  {
+              ksztaltImpl = new Polygon(false);
+          }
 			ksztalty.put(typ, ksztaltImpl);
 		}
 		return ksztaltImpl;
@@ -29,6 +35,8 @@ public class FabrykaKsztaltow
 	{
 		OVAL_FILL,
 		OVAL_NOFILL,
-		LINE;
+		LINE,
+        POLYGON_FILL,
+        POLYGON_NOFILL;
 	}
 }

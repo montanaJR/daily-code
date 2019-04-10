@@ -12,7 +12,7 @@ public class Program extends JFrame
 	private final int WIDTH;
 	private final int HEIGHT;
 
-	private static final FabrykaKsztaltow.TypyKsztaltow ksztalty[] = { FabrykaKsztaltow.TypyKsztaltow.LINE, FabrykaKsztaltow.TypyKsztaltow.OVAL_FILL, FabrykaKsztaltow.TypyKsztaltow.OVAL_NOFILL };
+	private static final FabrykaKsztaltow.TypyKsztaltow ksztalty[] = { FabrykaKsztaltow.TypyKsztaltow.LINE, FabrykaKsztaltow.TypyKsztaltow.OVAL_FILL, FabrykaKsztaltow.TypyKsztaltow.OVAL_NOFILL, FabrykaKsztaltow.TypyKsztaltow.POLYGON_FILL, FabrykaKsztaltow.TypyKsztaltow.POLYGON_NOFILL };
 	private static final Color kolory[] = {Color.RED, Color.GREEN, Color.YELLOW};
 	
 	public Program(int width, int height){
