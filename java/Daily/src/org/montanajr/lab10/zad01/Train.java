@@ -1,14 +1,16 @@
 package org.montanajr.lab10.zad01;
 
 public class Train extends Trip {
+	
     @Override
-    void setTime() {
-        System.out.println("22 hours 10 mins");
+    void setTime(Integer dist) {
+    	
+        System.out.println((dist / 100) +" Hours");
     }
 
     @Override
-    void setPrice() {
-        System.out.println("Price: 90$");
+    void setPrice(Integer dist) {
+    	System.out.println("Price: " + (0.8 * dist) + "PLN");
     }
 
     @Override
