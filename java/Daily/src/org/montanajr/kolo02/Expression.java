@@ -1,7 +1,5 @@
-package org.montanajr.lab07.zad02;
+package org.montanajr.kolo02;
 
 public interface Expression {
-
-
     String interpret(InterpreterContext ic);
 }
